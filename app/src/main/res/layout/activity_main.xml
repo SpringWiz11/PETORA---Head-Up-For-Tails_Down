@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound2"
+    android:backgroundTint="#C55A3B"
+    android:backgroundTintMode="add"
+    android:hapticFeedbackEnabled="false">
+
+
+    <Button
+        android:id="@+id/generalsymptoms"
+        android:layout_width="160dp"
+        android:layout_height="66dp"
+        android:background="@drawable/myselector"
+        android:backgroundTint="#1A89E1"
+        android:padding="10dp"
+        android:text="General Symptoms"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:theme="@style/CardView.Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="409dp"
+        android:layout_height="253dp"
+        android:backgroundTint="#FF6600"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myselector"
+            android:backgroundTint="#D500F9"
+            android:bottomLeftRadius="50dp"
+            android:bottomRightRadius="50dp"
+            android:topLeftRadius="50dp"
+            android:topRightRadius="50dp">
+
+        </SearchView>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/veteranian"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/myselector"
+        android:backgroundTint="#2196F3"
+        android:text="Veteranian"
+        android:textAlignment="center"
+        android:textColor="#FBF4F4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/generalsymptoms"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/trainer"
+        android:layout_width="115dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/myselector"
+        android:backgroundTint="#2196F3"
+        android:text="Trainers "
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toEndOf="@+id/veteranian"
+        app:layout_constraintTop_toBottomOf="@+id/generalsymptoms"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/Rehabilitation"
+        android:layout_width="132dp"
+        android:layout_height="70dp"
+        android:background="@drawable/myselector"
+        android:backgroundTint="#2196F3"
+        android:text="Rehabilitations"
+        android:textColor="#F3EFEF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/veteranian"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <Button
+        android:id="@+id/pet_house"
+        android:layout_width="115dp"
+        android:layout_height="61dp"
+        android:background="@drawable/myselector"
+        android:backgroundTint="#2196F3"
+        android:text="Pet House"
+        android:textColor="#FAF4F4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toEndOf="@+id/Rehabilitation"
+        app:layout_constraintTop_toBottomOf="@+id/trainer"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/pet_day_care"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:background="@drawable/myselector"
+        android:backgroundTint="#2196F3"
+        android:text="Pet Day Care"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <ImageView
+        android:id="@+id/chatbot"
+        android:layout_width="113dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toTopOf="@+id/pet_day_care"
+        app:layout_constraintEnd_toStartOf="@+id/trainer"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/Rehabilitation"
+        app:layout_constraintTop_toBottomOf="@+id/generalsymptoms"
+        app:srcCompat="@drawable/ic_baseline_chat_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

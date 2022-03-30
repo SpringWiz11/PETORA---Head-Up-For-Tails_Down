@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kishanschatbot.MainActivity_chatBot">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRLChat"
+        android:layout_width="match_parent"
+        android:layout_height="835dp"
+        android:layout_above="@+id/idRLMsg"
+        android:background="@drawable/darkpurplebg1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/idRLMsg"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idFABSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_usertextboxsend"
+            android:tint="@color/white"
+            app:fabCustomSize="45dp" />
+
+        <EditText
+            android:id="@+id/idEditMessage"
+            android:layout_width="357dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="-1dp"
+            android:layout_toLeftOf="@id/idFABSend"
+            android:background="#F8F2F2"
+            android:backgroundTint="#1DE9B6"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

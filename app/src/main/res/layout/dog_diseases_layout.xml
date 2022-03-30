@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F4EFEF"
+    android:textAlignment="center">
+
+
+    <LinearLayout
+        android:id="@+id/cardView"
+        android:layout_width="393dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/treatment"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="#1DE9B6"
+            android:backgroundTint="#3d3d3d"
+            android:shadowColor="#00E5FF"
+            android:text="Treatment"
+            android:textAlignment="center"
+            android:textColor="#FBF8F8"
+            android:textColorHighlight="#984141"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3D5AFE"
+            android:text="Causes and Symptoms"
+            android:textAlignment="center"
+            android:textColor="#FDF9F9"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/causes"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:background="#3D5AFE"
+            android:backgroundTint="#a9a9a9"
+            android:text="Causes"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3D5AFE"
+            android:text="Treatment"
+            android:textAlignment="center"
+            android:textColor="#FBFAFA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/diseases"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:background="#C6FF00"
+            android:backgroundTint="#a9a9a9"
+            android:text="Diseases"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:circularflow_angles="15" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
