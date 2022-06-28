@@ -1,0 +1,4 @@
+*.Java linguist-detectable=true
+*.gradle linguist-detectable=true
+*.XML linguist-detectable=true
+*.JSON linguist-detectable=true

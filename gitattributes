@@ -1,4 +1,0 @@
-*.Java linguist-dectable=true
-*.gradle linguist-dectable=true
-*.XML linguist-dectable=true
-*.JSON linguist-dectable=true
