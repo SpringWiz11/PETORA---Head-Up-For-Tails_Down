@@ -1,4 +1,4 @@
-*.Java languist-dectable=true
-*.gradle languist-dectable=true
-*.XML languist-dectable=true
-*.JSON languist-dectable=true
+*.Java linguist-dectable=true
+*.gradle linguist-dectable=true
+*.XML linguist-dectable=true
+*.JSON linguist-dectable=true
