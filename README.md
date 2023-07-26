@@ -11,7 +11,6 @@ chatbot to assist the user with immediate help.
 ## Badges
 
 
-
 ![ANDROID License](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 ![JAVA License](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -19,8 +18,6 @@ chatbot to assist the user with immediate help.
 ![FIREBASE License](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 
 
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Features
 
